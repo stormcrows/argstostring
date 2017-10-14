@@ -1,0 +1,35 @@
+{
+  "name": "argstostring",
+  "version": "1.0.8",
+  "description": "Converts list of various type arguments to a single string",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "ci":
+      "jest --ci --testResultsProcessor='./node_modules/jest-junit-reporter'"
+  },
+  "jest": {
+    "testResultsProcessor": "./node_modules/jest-junit-reporter"
+  },
+  "keywords": ["list", "args", "tostring", "string", "converter", "parser"],
+  "author": "stormcrows",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stormcrows/argstostring.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stormcrows/argstostring/issues"
+  },
+  "homepage": "https://github.com/stormcrows/argstostring#readme",
+  "maintainers": [
+    {
+      "name": "stormcrows",
+      "email": "stormingcrows@gmail.com"
+    }
+  ],
+  "devDependencies": {
+    "jest": "^21.2.1",
+    "jest-junit-reporter": "^1.1.0"
+  }
+}
