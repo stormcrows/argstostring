@@ -1,10 +1,11 @@
 {
   "name": "argstostring",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Converts list of various type arguments to a single string",
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "test:watch": "jest --watch",
     "ci":
       "jest --ci --testResultsProcessor='./node_modules/jest-junit-reporter'"
   },
